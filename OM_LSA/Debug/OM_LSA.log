@@ -1,0 +1,16 @@
+﻿  Datablock_Read.cpp
+d:\xm\毕设相关\om_lsa\om_lsa\lsa_denoise.h(18): warning C4244: “初始化”: 从“double”转换到“short”，可能丢失数据
+  PrSpeechAbsenceProbEstm_len .cpp
+d:\xm\毕设相关\om_lsa\om_lsa\lsa_denoise.h(18): warning C4244: “初始化”: 从“double”转换到“short”，可能丢失数据
+d:\xm\毕设相关\om_lsa\om_lsa\prspeechabsenceprobestm_len .cpp(12): warning C4244: “初始化”: 从“double”转换到“short”，可能丢失数据
+d:\xm\毕设相关\om_lsa\om_lsa\prspeechabsenceprobestm_len .cpp(13): warning C4244: “初始化”: 从“double”转换到“short”，可能丢失数据
+d:\xm\毕设相关\om_lsa\om_lsa\prspeechabsenceprobestm_len .cpp(14): warning C4244: “初始化”: 从“double”转换到“short”，可能丢失数据
+d:\xm\毕设相关\om_lsa\om_lsa\prspeechabsenceprobestm_len .cpp(17): warning C4244: “初始化”: 从“double”转换到“short”，可能丢失数据
+d:\xm\毕设相关\om_lsa\om_lsa\prspeechabsenceprobestm_len .cpp(35): warning C4244: “=”: 从“unsigned __int64”转换到“int”，可能丢失数据
+d:\xm\毕设相关\om_lsa\om_lsa\prspeechabsenceprobestm_len .cpp(44): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\xm\毕设相关\om_lsa\om_lsa\prspeechabsenceprobestm_len .cpp(51): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\xm\毕设相关\om_lsa\om_lsa\prspeechabsenceprobestm_len .cpp(55): warning C4244: “=”: 从“unsigned __int64”转换到“short”，可能丢失数据
+d:\xm\毕设相关\om_lsa\om_lsa\prspeechabsenceprobestm_len .cpp(64): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\xm\毕设相关\om_lsa\om_lsa\prspeechabsenceprobestm_len .cpp(82): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码...
+  OM_LSA.vcxproj -> D:\xm\毕设相关\OM_LSA\Debug\OM_LSA.exe

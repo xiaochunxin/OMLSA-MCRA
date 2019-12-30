@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\xm\xm\毕设相关\om_lsa\om_lsa\cordic.h(12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\xm\xm\毕设相关\om_lsa\om_lsa\main.cpp(44): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  OM_LSA.vcxproj -> D:\xm\xm\毕设相关\OM_LSA\x64\Debug\OM_LSA.exe
