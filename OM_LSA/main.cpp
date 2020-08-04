@@ -14,7 +14,7 @@ void procese(const char *szFileIn, const char *szFileOut,int sample_rate)
 		printf("open src file err1 \n");
 	}
 	fseek(fpIn, 44, 0);
-	FILE *fpOut=fopen(szFileOut, "wb");  //出错
+	FILE *fpOut=fopen(szFileOut, "wb"); 
 	if (NULL == fpOut)
 	{
 		printf("open out file err2! \n");
@@ -25,7 +25,7 @@ void procese(const char *szFileIn, const char *szFileOut,int sample_rate)
 	short pOutBuffer[section_max+frame_max];
 	memset(pOutBuffer, 0, (section_max + frame_max) * sizeof(short));
 
-	int Out_Length = 0;		//输出数据长度
+	int Out_Length = 0;	
 	short voice_channel = 1;
 	short abnormal_flag=0;
 	int MaxDataLen = 10000;
@@ -68,7 +68,6 @@ void procese(const char *szFileIn, const char *szFileOut,int sample_rate)
 //MY_B4_FFT* MY_B4_FFT::NSingleton = new MY_B4_FFT; //饿汉式  单例模式 
 
 int main(const int argc, const char * argv[]) {
-	//当vs读取wav文件时，会将wav的44字节头文件也读取进来，影响了部分程序的读写正确性
 	procese("cleanadf10db.wav", "out.pcm",32000);
 	for (int i = 0; i < argc; i++) {
 	//printf("%d ", nParams);
